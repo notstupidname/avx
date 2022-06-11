@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;325;350;375;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;325;350;375;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;325;350;375;400;500&display=swap');
 
 :root {
@@ -67,7 +68,7 @@ body {
 /* Type */
 
 body, input, select, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 18px;
     font-weight: 350;
     line-height: 1.4em;
@@ -434,6 +435,7 @@ body.transition:after {
         .caption h3 {
             margin-top: 1rem;
             line-height: 1.4em;
+            text-transform: none;
         }
 
 @media screen and (max-width: 700px) {
@@ -474,13 +476,17 @@ body.transition:after {
     #navbar {
         flex-direction: column;
         padding-top: 4rem;
-        height: 44vh;
+        height: 30vh;
     }
 
     #navbar ul {
         flex-direction: column;
-        height: 30vh;
+        height: 20vh;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .caption h3 {
+        font-size: 1.2rem;
     }
 }
