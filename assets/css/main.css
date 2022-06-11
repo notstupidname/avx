@@ -451,6 +451,7 @@ body.transition:after {
         left: 0;
         width: 100%;
         text-align: center;
+        bottom: 7rem;
     }
 
     .container {
